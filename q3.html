@@ -1,0 +1,33 @@
+<html>
+<head>
+<style>
+ table,td{
+border :3px solid red;
+}
+</style>
+<body>
+<table id="tab">
+ <tr>
+  <td>Fruit</td>
+  <td>Color</td>
+ </tr>
+ <tr>
+    <td>apple</td>
+    <td>red</td>
+ </tr>
+ </table>
+ <br>
+ <button onclick="f1()">Add a row </button>
+ <script>
+ function f1()
+ {
+ var a=document.getElementById("tab");
+  var row=a.insertRow(1);
+  var c1=row.insertCell(0);
+  var c2=row.insertCell(1);
+  c1.innerHTML="Mango";
+  c2.innerHTML="yellow"
+ }
+ </script>
+ </body>
+ </html>

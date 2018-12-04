@@ -1,0 +1,23 @@
+<html>
+<head>
+</head>
+<body>
+ <select id="id1">
+ <option> sunday</option>
+ <option>monday</option>
+ <option>tuesday</option>
+ <option>wednesday</option>
+ <option>thursday</option>
+ </select>
+ <br>
+ <br>
+ <button onclick="myf1()">select element to deleted</button>
+ <script>
+ function myf1()
+ {
+ var x=document.getElementById("id1");
+ x.remove(x.selectedIndex);
+ }
+ </script>
+ </body>
+ </html>

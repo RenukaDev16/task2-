@@ -1,0 +1,19 @@
+<html>
+<body>
+<script>
+function month(a)
+{
+var b=new Date(a);
+if(b.getDay()==0||b.getDay()==6)
+{
+return "weekend";
+}
+else
+{
+return "not weekend";
+}
+}
+console.log(month('nov 16,2018'));
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<html>
+<body>
+<script>
+function fun(a)
+{var b=new Date(a);
+return new Date((b.setDate(b.getDate()-1))).toString();
+}
+console.log(fun('nov 15,2017'));
+</script>
+</body>
+</html>

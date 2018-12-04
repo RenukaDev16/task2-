@@ -1,0 +1,23 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+function ins(a,b,n)
+{  
+if(typeof(n)=="undefined")
+{
+n=0;
+}
+if(typeof(b)=="undefined")
+{
+b="";
+}
+return a.slice(0,n)+ b +a.slice(n);
+}
+console.log(ins("we are good"));
+console.log(ins("we are good","student",12));
+console.log(ins("we are good","ohoo"));
+</script>
+</body>
+</html>
